@@ -4,10 +4,16 @@
   justify-content: space-around;
   margin: 0px;
   padding: 2rem;
-  min-width: 90%;
+  min-width: calc(100% - 4rem);
   min-height: 1200px;
 
-  background-color: rgb(161, 161, 161);
+  background-color: rgb(243, 244, 246);
+  --main-background-color: rgb(243, 244, 246);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .operatePanel {
@@ -20,7 +26,7 @@
 .previewContainer {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
   min-height: 16rem;
 
   /*  

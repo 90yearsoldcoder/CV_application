@@ -1,0 +1,33 @@
+.basicInfo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: space-around;
+
+  margin: 0.3rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 1rem;
+  width: calc(100% - 3.6rem);
+}
+
+.inputItem-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+label {
+  display: block;
+  font-weight: 800;
+}
+
+.inputItem-Container input {
+  display: block;
+  background-color: var(--main-background-color);
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  width: 80%;
+}
