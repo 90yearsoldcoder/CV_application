@@ -9,7 +9,8 @@
   min-height: 1200px;
 
   background-color: rgb(243, 244, 246);
-  --main-background-color: #fff;
+  --main-background-color: rgb(243, 244, 246);
+  --preview-background-color: #fff;
 }
 
 .operatePanel {
@@ -26,5 +27,5 @@
   width: calc(65% - 2rem);
   min-height: 16rem;
 
-  background-color: var(--main-background-color);
+  background-color: var(--preview-background-color);
 }
