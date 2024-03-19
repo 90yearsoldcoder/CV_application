@@ -15,8 +15,9 @@ const BasicInfoPanel = ({ basicInfo, setBasicInfo }) => {
       <div className="title">Personal Details</div>
       {Object.keys(basicInfo).map((key) => (
         <div key={key} className="inputItem-Container">
-          <label htmlFor="">{displayName[key]}</label>
+          <label htmlFor={key}>{displayName[key]}</label>
           <input
+            id={key}
             type="text"
             value={basicInfo[key]}
             onChange={(e) => handleChange(e.target.value, key)}

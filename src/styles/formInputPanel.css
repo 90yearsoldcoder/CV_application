@@ -1,0 +1,60 @@
+.formInput-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.formInputItem-Container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+label {
+  display: block;
+  font-weight: 800;
+}
+
+.formInputItem-Container input {
+  display: block;
+  background-color: var(--main-background-color);
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  width: 80%;
+}
+
+.button-container {
+  width: calc(80% + 2rem);
+  display: flex;
+  justify-content: space-between;
+}
+
+.Save-Button {
+  max-width: 10rem;
+  background-color: rgb(192, 223, 250);
+}
+
+.Cancel-Button {
+  max-width: 10rem;
+  background-color: rgb(189, 189, 189);
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(78, 78, 78);
+  margin: 10px 0;
+}
+
+.formMini-container {
+  display: flex;
+  justify-content: space-between;
+
+  cursor: pointer;
+}
+
+.miniContent {
+  display: flex;
+  font-weight: 800;
+}

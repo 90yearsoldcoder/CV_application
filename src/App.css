@@ -11,11 +11,6 @@
   --main-background-color: rgb(243, 244, 246);
 }
 
-.title {
-  font-size: 1.8rem;
-  font-weight: 900;
-}
-
 .operatePanel {
   display: flex;
   flex-direction: column;

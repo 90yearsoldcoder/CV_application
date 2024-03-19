@@ -17,6 +17,11 @@
   gap: 0.3rem;
 }
 
+.title {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
 label {
   display: block;
   font-weight: 800;
