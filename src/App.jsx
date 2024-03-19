@@ -3,6 +3,7 @@ import "./App.css";
 import { basicInfoExample, EduInfoExample, ExpInfoExample } from "./data/data";
 import BasicInfoPanel from "./components/basicInfoPanel";
 import InfoInputPanel from "./components/infoInputPanel";
+import BasicInfoPreview from "./components/basicInfoPreview";
 
 function App() {
   // use example for now
@@ -27,7 +28,9 @@ function App() {
           miniDisplayKeys={["CompanyName", "PositionTitle"]}
         ></InfoInputPanel>
       </div>
-      <div className="previewContainer"></div>
+      <div className="previewContainer">
+        <BasicInfoPreview info={basicInfo}></BasicInfoPreview>
+      </div>
     </>
   );
 }
