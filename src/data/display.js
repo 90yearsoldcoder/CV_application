@@ -9,4 +9,5 @@ export const displayName = {
   EndDate: "End Date",
   CompanyName: "Company Name",
   PositionTitle: "Position Title",
+  Location: "Location",
 };

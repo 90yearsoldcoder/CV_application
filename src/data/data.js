@@ -12,6 +12,7 @@ export const EduInfoExample = [
     Degree: "Bachelor in CS",
     StartDate: "09/2018",
     EndDate: "07/2022",
+    Location: "Boston, USA",
   },
   {
     id: "2",
@@ -19,6 +20,7 @@ export const EduInfoExample = [
     Degree: "Master in CS",
     StartDate: "09/2022",
     EndDate: "present",
+    Location: "Boston, USA",
   },
 ];
 
@@ -29,6 +31,7 @@ export const ExpInfoExample = [
     PositionTitle: "CEO",
     StartDate: "09/2018",
     EndDate: "07/2022",
+    Location: "Seattle, USA",
   },
   {
     id: "2",
@@ -36,5 +39,6 @@ export const ExpInfoExample = [
     PositionTitle: "Manager",
     StartDate: "01/2023",
     EndDate: "present",
+    Location: "San Francisco, USA",
   },
 ];
