@@ -20,6 +20,12 @@ function App() {
           infoSetter={setEduInfo}
           miniDisplayKeys={["School", "Degree"]}
         ></InfoInputPanel>
+        <InfoInputPanel
+          title="Experience"
+          info={ExpInfo}
+          infoSetter={setExpInfo}
+          miniDisplayKeys={["CompanyName", "PositionTitle"]}
+        ></InfoInputPanel>
       </div>
       <div className="previewContainer"></div>
     </>
