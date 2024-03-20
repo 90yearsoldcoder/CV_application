@@ -58,3 +58,13 @@ hr {
   display: flex;
   font-weight: 800;
 }
+
+textarea {
+  display: block;
+  background-color: var(--main-background-color);
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  width: 80%;
+}

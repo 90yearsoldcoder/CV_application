@@ -52,12 +52,21 @@ const FormInputPanel = ({
           .map((key) => (
             <div key={key} className="formInputItem-Container">
               <label htmlFor={`${key}_${ind}`}>{displayName[key]}</label>
-              <input
-                id={`${key}_${ind}`}
-                type="text"
-                value={localInfo[key]}
-                onChange={(e) => handleChange(e.target.value, key)}
-              />
+              {key === "Description" ? (
+                <textarea
+                  id={`${key}_${ind}`}
+                  type="text"
+                  value={localInfo[key]}
+                  onChange={(e) => handleChange(e.target.value, key)}
+                />
+              ) : (
+                <input
+                  id={`${key}_${ind}`}
+                  type="text"
+                  value={localInfo[key]}
+                  onChange={(e) => handleChange(e.target.value, key)}
+                />
+              )}
             </div>
           ))}
         <div className="button-container">
