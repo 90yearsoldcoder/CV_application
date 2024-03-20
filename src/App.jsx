@@ -4,6 +4,7 @@ import { basicInfoExample, EduInfoExample, ExpInfoExample } from "./data/data";
 import BasicInfoPanel from "./components/basicInfoPanel";
 import InfoInputPanel from "./components/infoInputPanel";
 import BasicInfoPreview from "./components/basicInfoPreview";
+import InfoPreview from "./components/infoPreview";
 
 function App() {
   // use example for now
@@ -30,6 +31,16 @@ function App() {
       </div>
       <div className="previewContainer">
         <BasicInfoPreview info={basicInfo}></BasicInfoPreview>
+        <InfoPreview
+          info={EduInfo}
+          title="Education"
+          displayKeys={["School", "Degree"]}
+        ></InfoPreview>
+        <InfoPreview
+          info={ExpInfo}
+          title="Experience"
+          displayKeys={["CompanyName", "PositionTitle", "Description"]}
+        ></InfoPreview>
       </div>
     </>
   );
