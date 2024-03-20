@@ -13,8 +13,6 @@ const FormInputPanel = ({
 }) => {
   const [localInfo, setLocalInfo] = useState(info[ind]);
 
-  if (localInfo !== info[ind]) setLocalInfo(info[ind]);
-
   function handleChange(value, key) {
     setLocalInfo({ ...localInfo, [key]: value });
   }
@@ -63,7 +61,13 @@ const FormInputPanel = ({
             </div>
           ))}
         <div className="button-container">
-          <button className="Cancel-Button" onClick={unShow}>
+          <button
+            className="Cancel-Button"
+            onClick={() => {
+              unShow();
+              setLocalInfo(info[ind]);
+            }}
+          >
             Cancel
           </button>
           <button
