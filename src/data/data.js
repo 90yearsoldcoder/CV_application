@@ -32,6 +32,7 @@ export const ExpInfoExample = [
     StartDate: "09/2018",
     EndDate: "07/2022",
     Location: "Seattle, USA",
+    Description: "Designed the Operating System with Bill",
   },
   {
     id: "2",
@@ -40,5 +41,6 @@ export const ExpInfoExample = [
     StartDate: "01/2023",
     EndDate: "present",
     Location: "San Francisco, USA",
+    Description: "Help Zuck clean trash and charge his battery.",
   },
 ];

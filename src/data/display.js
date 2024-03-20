@@ -10,4 +10,5 @@ export const displayName = {
   CompanyName: "Company Name",
   PositionTitle: "Position Title",
   Location: "Location",
+  Description: "Description",
 };
