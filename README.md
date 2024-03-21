@@ -1,6 +1,6 @@
 # CV generating Application
 
-This is a web application REACT(+vite) to generate CV
+This is a web application based on REACT(+vite) to generate CV
 ![alt text](image.png)
 
 # Live preview
